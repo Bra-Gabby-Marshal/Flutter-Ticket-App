@@ -1,7 +1,12 @@
+import 'dart:ui';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
+import 'package:flutter/widgets.dart';
 import 'package:my_ticket_app/base/res/styles/app_styles.dart';
 import 'package:my_ticket_app/base/widgets/app_layoutbuilder_widget.dart';
+import 'package:my_ticket_app/base/widgets/big_circle.dart';
 import 'package:my_ticket_app/base/widgets/big_dot.dart';
 
 class TicketView extends StatelessWidget {
@@ -70,15 +75,13 @@ class TicketView extends StatelessWidget {
               ),
             ),
             Container(
-              height: 20,
+              // height: 20,
               color: AppStyles.ticketOrange,
-              child: const Row(
+              child:  const Row(
                 children: [
-                  SizedBox(
-                    height: 20,
-                    width: 10,
-                    child: DecoratedBox(decoration: BoxDecoration(color: Colors.white)),
-                  )
+                  BigCircle(isRight:false),
+                  Expanded(child: AppLayoutBuilderwidget(randomDivider: 10,)),
+                  BigCircle(isRight: true,),
                 ],
               ),
             ),
