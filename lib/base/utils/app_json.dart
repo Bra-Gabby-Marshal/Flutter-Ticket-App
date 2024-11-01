@@ -84,3 +84,66 @@ List<Map<String, dynamic>> ticketList = [
     'number': 89,
   },
 ];
+List<Map<String, dynamic>> hotelList = [
+  {
+    'image': 'hotel_room.jpg',
+    'place': 'Open Space',
+    'destination': 'London',
+    'price': 25
+  },
+  {
+    'image': 'luxury_suite.jpg',
+    'place': 'Luxury Suite',
+    'destination': 'Paris',
+    'price': 45
+  },
+  {
+    'image': 'beach_villa.jpg',
+    'place': 'Beach Villa',
+    'destination': 'Maldives',
+    'price': 75
+  },
+  {
+    'image': 'mountain_lodge.jpg',
+    'place': 'Mountain Lodge',
+    'destination': 'Swiss Alps',
+    'price': 55
+  },
+  {
+    'image': 'urban_inn.jpg',
+    'place': 'Urban Inn',
+    'destination': 'New York',
+    'price': 30
+  },
+  {
+    'image': 'desert_resort.jpg',
+    'place': 'Desert Resort',
+    'destination': 'Dubai',
+    'price': 60
+  },
+  {
+    'image': 'jungle_retreat.jpg',
+    'place': 'Jungle Retreat',
+    'destination': 'Amazon Rainforest',
+    'price': 40
+  },
+  {
+    'image': 'heritage_hotel.jpg',
+    'place': 'Heritage Hotel',
+    'destination': 'Kyoto',
+    'price': 50
+  },
+  {
+    'image': 'seaside_cottage.jpg',
+    'place': 'Seaside Cottage',
+    'destination': 'Sydney',
+    'price': 35
+  },
+  {
+    'image': 'modern_apartment.jpg',
+    'place': 'Modern Apartment',
+    'destination': 'Berlin',
+    'price': 28
+  }
+];
+
