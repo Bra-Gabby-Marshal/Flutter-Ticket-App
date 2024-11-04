@@ -1,7 +1,7 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:my_ticket_app/base/bottom_nav_bar.dart';
-import 'package:my_ticket_app/screens/all_tickets.dart';
+import 'package:my_ticket_app/screens/home/all_tickets.dart';
 
 void main() {
   runApp(DevicePreview(builder: (context) => const MyApp()));

@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:my_ticket_app/base/res/styles/app_styles.dart';
-import 'package:my_ticket_app/screens/all_tickets.dart';
+import 'package:my_ticket_app/screens/home/all_tickets.dart';
 
 class AppDoubleText extends StatelessWidget {
   const AppDoubleText({super.key, required this.bigText, required this.smallText, required this.func});

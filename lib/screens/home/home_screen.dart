@@ -6,7 +6,7 @@ import 'package:my_ticket_app/base/res/styles/app_styles.dart';
 import 'package:my_ticket_app/base/utils/app_json.dart';
 import 'package:my_ticket_app/base/widgets/app_double_text.dart';
 import 'package:my_ticket_app/base/widgets/ticket_view.dart';
-import 'package:my_ticket_app/screens/widgets/hotel.dart';
+import 'package:my_ticket_app/screens/home/widgets/hotel.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -83,7 +83,7 @@ class HomeScreen extends StatelessWidget {
                   scrollDirection: Axis.horizontal,
                   child: Row(
                     children: hotelList
-                        .take(2)
+                    .take(2)
                         .map((singleHotel) => Hotel(hotel: singleHotel))
                         .toList(), // Make sure this is applied correctly to the map() result.
                   ),
