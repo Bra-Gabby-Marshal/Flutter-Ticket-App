@@ -64,7 +64,9 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 40),
-                 AppDoubleText(bigText: 'Upcoming Flight', smallText: 'View all',
+                 AppDoubleText(
+                   bigText: 'Upcoming Flight',
+                   smallText: 'View all',
                 func: ()=>Navigator.pushNamed(context, "/all_tickets"),),
                 const SizedBox(height: 20,),
                  SingleChildScrollView(
