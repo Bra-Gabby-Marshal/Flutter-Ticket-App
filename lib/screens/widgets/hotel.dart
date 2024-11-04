@@ -4,7 +4,8 @@ import 'package:my_ticket_app/base/res/media.dart';
 import 'package:my_ticket_app/base/res/styles/app_styles.dart';
 
 class Hotel extends StatelessWidget {
-  const Hotel({super.key});
+  final Map<String, dynamic> hotel;
+  const Hotel({super.key, required this.hotel});
 
   @override
   Widget build(BuildContext context) {
@@ -26,10 +27,10 @@ class Hotel extends StatelessWidget {
       decoration: BoxDecoration(
       color: AppStyles.primaryColor,
           borderRadius: BorderRadius.circular(12),
-        image: const DecorationImage(
+        image: DecorationImage(
           fit: BoxFit.cover,
           image: AssetImage(
-            AppMedia.hotelRoom
+            "assets/images/${hotel['image']}"
           )
         )
       ),

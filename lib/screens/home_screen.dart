@@ -79,18 +79,15 @@ class HomeScreen extends StatelessWidget {
                    print("Hello There");
                    }),
                 const SizedBox(height: 20,),
-                const SingleChildScrollView(
+                SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
-                    child: Row(
-                      children: [
-                        Hotel(),
-                        Hotel(),
-                        Hotel(),
-                        Hotel(),
-                        Hotel(),
-                        Hotel(),
-                      ],
-                    ))
+                  child: Row(
+                    children: hotelList
+                        .take(2)
+                        .map((singleHotel) => Hotel(hotel: singleHotel))
+                        .toList(), // Make sure this is applied correctly to the map() result.
+                  ),
+                )
               ],
             ),
           ),
