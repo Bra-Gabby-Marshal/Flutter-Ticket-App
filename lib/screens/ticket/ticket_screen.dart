@@ -38,7 +38,7 @@ class TicketScreen extends StatelessWidget {
             color: AppStyles.ticketColor,
             child:  Column(
               children: [
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     AppColumnTextLayout(
@@ -84,9 +84,12 @@ class TicketScreen extends StatelessWidget {
                       children: [
                         Row(
                           children: [
-                            Image.asset(AppMedia.visaCard)
+                            Image.asset(AppMedia.visaCard, scale: 5,),
+                            Text(" *** 2462", style: AppStyles.headLineStyle3,)
                           ],
-                        )
+                        ),
+                        const SizedBox(height: 5,),
+                        Text("Payment method", style: AppStyles.headLineStyle4,)
                       ],
                     ),
                     const AppColumnTextLayout(
@@ -100,6 +103,24 @@ class TicketScreen extends StatelessWidget {
               ],
             ),
           ),
+          // bottom of the ticket detail section
+          Container(
+            margin: EdgeInsets.symmetric(horizontal: 15),
+            decoration:  BoxDecoration(
+              color: AppStyles.ticketColor,
+              borderRadius: BorderRadius.only(
+                bottomRight: Radius.circular(21),
+                bottomLeft: Radius.circular(21)
+              )
+            ),
+            child: Container(
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(15),
+                child: Center(
+                    child: Text("Hello Flutter")),
+              ),
+            ),
+          )
         ],
       ),
     );
