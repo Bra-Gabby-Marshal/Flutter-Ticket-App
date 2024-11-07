@@ -2,6 +2,9 @@ import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:my_ticket_app/base/bottom_nav_bar.dart';
 import 'package:my_ticket_app/screens/home/all_tickets.dart';
+import 'package:my_ticket_app/screens/ticket/ticket_screen.dart';
+
+import 'base/widgets/app_routes.dart';
 
 void main() {
   runApp(DevicePreview(builder: (context) => const MyApp()));
@@ -15,8 +18,9 @@ class MyApp extends StatelessWidget {
     return  MaterialApp(
       // home: const BottomNavBar(),
       routes: {
-        "/": (context)=> const BottomNavBar(),
-        "/all_tickets": (context)=> const AllTickets()
+        AppRoutes.homePage:(context)=> const BottomNavBar(),
+        AppRoutes.allTicket: (context)=> const AllTickets(),
+        AppRoutes.ticketScreen: (context)=> const TicketScreen()
       },
     );
   }
