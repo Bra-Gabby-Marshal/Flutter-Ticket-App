@@ -5,6 +5,7 @@ import 'package:my_ticket_app/base/res/media.dart';
 import 'package:my_ticket_app/base/res/styles/app_styles.dart';
 import 'package:my_ticket_app/base/utils/app_json.dart';
 import 'package:my_ticket_app/base/widgets/app_double_text.dart';
+import 'package:my_ticket_app/base/widgets/app_routes.dart';
 import 'package:my_ticket_app/base/widgets/ticket_view.dart';
 import 'package:my_ticket_app/screens/home/widgets/hotel.dart';
 
@@ -78,7 +79,7 @@ class HomeScreen extends StatelessWidget {
                 const SizedBox(height: 40),
                  AppDoubleText(bigText: 'Hotels', smallText: 'View all',
                    func: (){
-                   print("Hello There");
+                     Navigator.pushNamed(context, AppRoutes.allHotels);
                    }),
                 const SizedBox(height: 20,),
                 SingleChildScrollView(

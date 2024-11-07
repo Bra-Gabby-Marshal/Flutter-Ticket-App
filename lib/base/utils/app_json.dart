@@ -100,19 +100,19 @@ List<Map<String, dynamic>> hotelList = [
   {
     'image': 'beach_villa.jpg',
     'place': 'Beach Villa',
-    'destination': 'Maldives',
+    'destination': 'UK',
     'price': 75
   },
   {
     'image': 'mountain_lodge.jpg',
     'place': 'Mountain Lodge',
-    'destination': 'Swiss Alps',
+    'destination': 'Swiss',
     'price': 55
   },
   {
     'image': 'urban_inn.jpg',
     'place': 'Urban Inn',
-    'destination': 'New York',
+    'destination': 'UK',
     'price': 30
   },
   {
@@ -124,7 +124,7 @@ List<Map<String, dynamic>> hotelList = [
   {
     'image': 'jungle_retreat.jpg',
     'place': 'Jungle Retreat',
-    'destination': 'Amazon Rainforest',
+    'destination': 'US',
     'price': 40
   },
   {
@@ -141,7 +141,7 @@ List<Map<String, dynamic>> hotelList = [
   },
   {
     'image': 'modern_apartment.jpg',
-    'place': 'Modern Apartment',
+    'place': 'Modern Side',
     'destination': 'Berlin',
     'price': 28
   }
