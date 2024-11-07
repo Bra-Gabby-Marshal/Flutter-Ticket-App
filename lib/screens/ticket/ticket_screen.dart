@@ -1,3 +1,4 @@
+import 'package:barcode_widget/barcode_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:my_ticket_app/base/res/media.dart';
@@ -26,6 +27,7 @@ class TicketScreen extends StatelessWidget {
             secondTab: "Previous",
           ),
           const SizedBox(height: 20,),
+          // white and black ticket
           Container(
             padding: const EdgeInsets.only(left:  16),
               child: TicketView(
@@ -103,24 +105,40 @@ class TicketScreen extends StatelessWidget {
               ],
             ),
           ),
+          const SizedBox(height: 1,),
           // bottom of the ticket detail section
           Container(
-            margin: EdgeInsets.symmetric(horizontal: 15),
+            margin: const EdgeInsets.symmetric(horizontal: 15),
+            padding: const EdgeInsets.symmetric(vertical: 20),
             decoration:  BoxDecoration(
               color: AppStyles.ticketColor,
-              borderRadius: BorderRadius.only(
+              borderRadius: const BorderRadius.only(
                 bottomRight: Radius.circular(21),
                 bottomLeft: Radius.circular(21)
               )
             ),
             child: Container(
+              padding: const EdgeInsets.symmetric(horizontal: 15),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(15),
-                child: Center(
-                    child: Text("Hello Flutter")),
+                child: BarcodeWidget(
+                  height: 70,
+                  barcode: Barcode.code128(),
+                  data: 'https://sodey-haidor-gabriel.vercel.app/',
+                  drawText: false,
+                  color: AppStyles.textColor,
+                  width: double.infinity,
+                ),
               ),
             ),
-          )
+          ),
+          // colorful ticket
+          const SizedBox(height: 20,),
+          Container(
+              padding: const EdgeInsets.only(left:  16),
+              child: TicketView(
+                ticket: ticketList[0],
+              )),
         ],
       ),
     );
