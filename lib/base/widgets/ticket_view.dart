@@ -23,7 +23,7 @@ class TicketView extends StatelessWidget {
     final size = MediaQuery.of(context).size; // Size of the mobile screen
     return SizedBox(// Making the media query dynamic
       width: size.width*0.85,
-      height: 189,
+      height: 180,
       child: Container(
         margin: EdgeInsets.only(right: wholeScreen==true?0:16),
         child: Column(
@@ -122,18 +122,21 @@ class TicketView extends StatelessWidget {
                       AppColumnTextLayout(
                           topText: ticket["date"],
                           bottomText: "Date",
-                        alignment: CrossAxisAlignment.start,),
+                        alignment: CrossAxisAlignment.start,
+                          isColor:isColor),
                       AppColumnTextLayout(
                           topText: ticket["departure"],
                           bottomText: "Departure time",
                         alignment: CrossAxisAlignment.center,
+                          isColor:isColor
                       ),
                       AppColumnTextLayout(
                           topText: ticket["number"].toString(),
                           bottomText: "Number",
                         alignment: CrossAxisAlignment.end,
+                          isColor:isColor
                       ),
-                                          ],
+                    ],
                   ),
                 ],
               ),
