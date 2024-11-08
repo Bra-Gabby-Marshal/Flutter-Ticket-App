@@ -35,9 +35,7 @@ class _HotelDetailState extends State<HotelDetail> {
             leading: Padding(
               padding: const EdgeInsets.all(8.0),
               child: GestureDetector(
-                onTap: (){
-                  Navigator.pop(context);
-                },
+                onTap: () => Navigator.pop(context),
                 child: Container(
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
@@ -51,16 +49,40 @@ class _HotelDetailState extends State<HotelDetail> {
               ),
             ),
             flexibleSpace: FlexibleSpaceBar(
-              title: Text(
-                hotelList.length > index ? hotelList[index]["place"] : "Hotel",
-                style: const TextStyle(color: Colors.white),
+              background: Stack(
+                children: [
+                  Positioned.fill(
+                    child: hotelList.length > index
+                        ? Image.asset(
+                      "assets/images/${hotelList[index]["image"]}",
+                      fit: BoxFit.cover,
+                    )
+                        : Container(color: Colors.grey), // Fallback if no image
+                  ),
+                  Positioned(
+                    bottom: 20,
+                    right: 20,
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                      color: Colors.black.withOpacity(0.5),
+                      child: Text(
+                        hotelList.length > index ? hotelList[index]["place"] : "Hotel",
+                        style: TextStyle(
+                          fontSize: 24,
+                          color: Colors.white,
+                          shadows: [
+                            Shadow(
+                              blurRadius: 10.0,
+                              color: AppStyles.primaryColor.withOpacity(0.5),
+                              offset: const Offset(2.0, 2.0),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
               ),
-              background: hotelList.length > index
-                  ? Image.asset(
-                "assets/images/${hotelList[index]["image"]}",
-                fit: BoxFit.cover,
-              )
-                  : null,
             ),
           ),
           SliverList(
