@@ -1,3 +1,4 @@
+import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
@@ -22,8 +23,8 @@ class ProfileScreen extends StatelessWidget {
           children: [
             // shows the logo
             Container(
-              width: 60,
-              height: 60,
+              width: 90 ,
+              height: 90,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
                 image: const DecorationImage(
@@ -35,9 +36,32 @@ class ProfileScreen extends StatelessWidget {
           const SizedBox(width: 20,),
           //   shows the column text
             Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text("Book Tickets", style: AppStyles.headLineStyle1,),
-                Text("New-York", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),)
+                Text("Book Tickets", style: AppStyles.headLineStyle2,),
+                Text("New-York", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: Colors.grey.shade500),),
+                const SizedBox(height: 8,),
+                Container(
+                  width: 100,
+                  height: 30,
+                  decoration: BoxDecoration(
+                    color: AppStyles.profileLocationColor ,
+                    borderRadius: BorderRadius.circular(100)
+                  ),
+                  child: Row(
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.all(3),
+                        decoration: const BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: Color(0xFF526799)
+                        ),
+                        child: const Icon(FluentSystemIcons.ic_fluent_shield_filled,
+                        color: Colors.white,),
+                      )
+                    ],
+                  ),
+                )
               ],
             ),
           ],

@@ -14,6 +14,7 @@ class AppStyles{
   static Color circelColor = const Color(0xFF189999);
   static Color ticketColor = const Color(0xFFFFFFFF);
   static Color dotColor  = const Color(0xFF8ACCF7);
+  static Color profileLocationColor  = const Color(0xFFFEF4F3);
   static Color planeSecondColor = const Color(0xFFBACCF7);
   static TextStyle textStyle = TextStyle(
       fontSize: 16, color: textColor, fontWeight: FontWeight.w500);
