@@ -73,7 +73,15 @@ class HomeScreen extends StatelessWidget {
                  SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
                     child: Row(
-                      children: ticketList.map((singleTicket) => TicketView(ticket:singleTicket)).toList(),
+                      children: ticketList.map((singleTicket) => GestureDetector(
+                        onTap: (){
+                          var index = ticketList.indexOf(singleTicket);
+
+                          print ("I am tapped on ticket $index");
+                          Navigator.pushNamed(context, AppRoutes.ticketScreen,
+                              arguments: {"index": index});
+                        },
+                          child: TicketView(ticket:singleTicket))).toList(),
                     )
                 ),
                 const SizedBox(height: 40),
@@ -86,8 +94,15 @@ class HomeScreen extends StatelessWidget {
                   scrollDirection: Axis.horizontal,
                   child: Row(
                     children: hotelList
-                    .take(2)
-                        .map((singleHotel) => Hotel(hotel: singleHotel))
+                    // .take(2)
+                        .map((singleHotel) => GestureDetector(
+                        onTap: (){
+                          var index = hotelList.indexOf(singleHotel);
+                          Navigator.pushNamed(context, AppRoutes.hotelDetail, arguments: {
+                            "index":index
+                          });
+                        },
+                        child: Hotel(hotel: singleHotel)))
                         .toList(), // Make sure this is applied correctly to the map() result.
                   ),
                 )
