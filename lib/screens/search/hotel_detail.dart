@@ -88,17 +88,14 @@ class _HotelDetailState extends State<HotelDetail> {
           SliverList(
             delegate: SliverChildListDelegate(
               [
-                const Padding(
-                  padding: EdgeInsets.all(16.0),
-                  child: Text(
-                    "Video provides a powerful way to help you prove "
-                        "your point. When you click Online Video, you can paste in "
-                        "the embed code for the video you want to add. You can also type "
-                        "a keyword to search online for the video that best fits your document.",
+                Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: ExpandedTextWidget(
+                    text: hotelList[index]["detail"],
                   ),
                 ),
-                const Padding(
-                  padding: EdgeInsets.all(16.0),
+                Padding(
+                  padding: const EdgeInsets.all(16.0),
                   child: Text(
                     "More Images",
                     style: TextStyle(
@@ -133,6 +130,48 @@ class _HotelDetailState extends State<HotelDetail> {
           ),
         ],
       ),
+    );
+  }
+}
+
+class ExpandedTextWidget extends StatefulWidget {
+  const ExpandedTextWidget({super.key, required this.text});
+  final String text;
+
+  @override
+  State<ExpandedTextWidget> createState() => _ExpandedTextWidgetState();
+}
+
+class _ExpandedTextWidgetState extends State<ExpandedTextWidget> {
+  bool isExpanded = false;
+
+  void _toggleExpansion() {
+    setState(() {
+      isExpanded = !isExpanded;
+    });
+    print("The value is $isExpanded");
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    var textWidget = Text(
+      widget.text,
+      maxLines: isExpanded ? null : 20,
+      overflow: isExpanded ? TextOverflow.visible : TextOverflow.ellipsis,
+    );
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        textWidget,
+        GestureDetector(
+          onTap: _toggleExpansion,
+          child: Text(
+            isExpanded ? 'Less' : 'More',
+            style: AppStyles.textStyle.copyWith(color: AppStyles.primaryColor),
+          ),
+        ),
+      ],
     );
   }
 }
