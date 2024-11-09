@@ -109,14 +109,14 @@ class _HotelDetailState extends State<HotelDetail> {
                   padding: const EdgeInsets.symmetric(horizontal: 16.0),
                   child: ListView.builder(
                     scrollDirection: Axis.horizontal,
-                    itemCount: 10,
-                    itemBuilder: (context, index) {
+                    itemCount: hotelList[index]["images"].length,
+                    itemBuilder: (context, imagesIndex) {
                       return Padding(
                         padding: const EdgeInsets.only(right: 8.0),
                         child: Container(
                           color: Colors.red,
-                          child: Image.network(
-                            "https://media.istockphoto.com/id/1453121684/photo/modern-hotel-room-with-double-bed-night-tables-and-day-sofa-bed.webp?a=1&b=1&s=612x612&w=0&k=20&c=zF-6auZlzLpc2o8a9NMs6DPXi3w-_IqWoF73ApcVxms=",
+                          child: Image.asset(
+                            "assets/images/${hotelList[index]["images"][imagesIndex]}",
                             fit: BoxFit.cover,
                             width: 120.0,
                           ),
