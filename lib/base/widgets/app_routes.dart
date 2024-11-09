@@ -4,5 +4,6 @@ class AppRoutes{
   static const ticketScreen = "/ticket_view";
   static const allHotels = "/all_hotels";
   static const hotelDetail = "/hotel_detail";
+  static const profileScreen = "/profile_view";
 
 }
