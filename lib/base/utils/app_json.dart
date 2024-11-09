@@ -95,7 +95,9 @@ List<Map<String, dynamic>> hotelList = [
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.',
     'images':[
-      'hotel_room_view_1'
+      'hotel_room_view_1.jpg',
+      'hotel_room_view_2.jpg',
+      'hotel_room_view_3.jpg',
     ]
   },
   {
@@ -106,7 +108,12 @@ List<Map<String, dynamic>> hotelList = [
     'detail': 'This opulent suite in Paris offers breathtaking panoramic views of the city, including a glimpse of the Eiffel Tower. It boasts a spacious bedroom, a private lounge, and an elegant marble bathroom. Designed with classic Parisian decor, the suite provides an ambiance of sophistication and comfort. Guests can enjoy premium amenities such as a private bar, complimentary breakfast, and 24/7 room service. Located near famous landmarks, this suite provides a luxurious base for exploring Paris. Additional perks include in-room massages, an exclusive balcony overlooking the city’s skyline, and curated artworks that blend seamlessly with the suite’s timeless charm. Every detail, from high-thread-count sheets to vintage-inspired lighting, ensures an unforgettable Parisian experience.'
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
-        'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
+        'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.',
+    'images':[
+      'hotel_room_view_1.jpg',
+      'hotel_room_view_2.jpg',
+      'hotel_room_view_3.jpg',
+  ]
   },
   {
     'image': 'beach_villa.jpg',
@@ -117,6 +124,12 @@ List<Map<String, dynamic>> hotelList = [
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
+ ,
+    'images':[
+      'hotel_room_view_1.jpg',
+      'hotel_room_view_2.jpg',
+      'hotel_room_view_3.jpg',
+    ]
   },
   {
     'image': 'mountain_lodge.jpg',
@@ -127,6 +140,12 @@ List<Map<String, dynamic>> hotelList = [
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
+  ,
+    'images':[
+      'hotel_room_view_1.jpg',
+      'hotel_room_view_2.jpg',
+      'hotel_room_view_3.jpg',
+    ]
   },
   {
     'image': 'urban_inn.jpg',
@@ -137,6 +156,12 @@ List<Map<String, dynamic>> hotelList = [
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
+  ,
+    'images':[
+      'hotel_room_view_1.jpg',
+      'hotel_room_view_2.jpg',
+      'hotel_room_view_3.jpg',
+    ]
   },
   {
     'image': 'desert_resort.jpg',
@@ -147,6 +172,12 @@ List<Map<String, dynamic>> hotelList = [
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
+  ,
+    'images':[
+      'hotel_room_view_1.jpg',
+      'hotel_room_view_2.jpg',
+      'hotel_room_view_3.jpg',
+    ]
   },
   {
     'image': 'jungle_retreat.jpg',
@@ -157,6 +188,12 @@ List<Map<String, dynamic>> hotelList = [
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
+  ,
+    'images':[
+      'hotel_room_view_1.jpg',
+      'hotel_room_view_2.jpg',
+      'hotel_room_view_3.jpg',
+    ]
   },
   {
     'image': 'heritage_hotel.jpg',
@@ -167,6 +204,12 @@ List<Map<String, dynamic>> hotelList = [
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
+  ,
+    'images':[
+      'hotel_room_view_1.jpg',
+      'hotel_room_view_2.jpg',
+      'hotel_room_view_3.jpg',
+    ]
   },
   {
     'image': 'seaside_cottage.jpg',
@@ -177,6 +220,12 @@ List<Map<String, dynamic>> hotelList = [
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
+  ,
+    'images':[
+      'hotel_room_view_1.jpg',
+      'hotel_room_view_2.jpg',
+      'hotel_room_view_3.jpg',
+    ]
   },
   {
     'image': 'modern_apartment.jpg',
@@ -187,6 +236,12 @@ List<Map<String, dynamic>> hotelList = [
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
         'A spacious open-plan room located in the heart of London, offering easy access to popular tourist attractions and business districts. Perfect for travelers looking for a minimalist yet comfortable space. The room features large windows that provide natural light and stunning city views. Equipped with modern furnishings, high-speed Wi-Fi, and a cozy workspace, this room is ideal for both leisure and business stays. Nearby cafes and restaurants offer a variety of dining options. The space also includes ample closet space, a sleek private bathroom with modern fixtures, and a calming neutral color palette that enhances the room’s open feel. It is especially convenient for guests looking for short stays or a weeklong retreat.'
+  ,
+    'images':[
+      'hotel_room_view_1.jpg',
+      'hotel_room_view_2.jpg',
+      'hotel_room_view_3.jpg',
+    ]
   }
 ];
 
