@@ -1,19 +1,19 @@
 import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:my_ticket_app/base/controller/bottom_nav_controller.dart';
 import 'package:my_ticket_app/screens/home/home_screen.dart';
 import 'package:my_ticket_app/screens/profile/profile_screen.dart';
 import 'package:my_ticket_app/screens/search/search_screen.dart';
 import 'package:my_ticket_app/screens/ticket/ticket_screen.dart';
 
-class BottomNavBar extends StatefulWidget {
-  const BottomNavBar({super.key});
+class BottomNavBar extends StatelessWidget {
+   BottomNavBar({super.key});
 
-  @override
-  State<BottomNavBar> createState() => _BottomNavBarState();
-}
+   // Dependency injection
+   final BottomNavController controller = Get.put(BottomNavController());
 
-class _BottomNavBarState extends State<BottomNavBar> {
   // Declaring list for various screens using index
   final appScreens = [
     // const Center(child: Text("Home")),
@@ -23,27 +23,18 @@ class _BottomNavBarState extends State<BottomNavBar> {
     const ProfileScreen(),
   ];
 
-  // Change our index for BottomNavBar
-  int _selectedIndex = 0;
-
-  void _onItemTapped(int index){
-    setState(() {
-      _selectedIndex = index;
-    });
-  }
-
-
   @override
   Widget build(BuildContext context) {
+    print("my tab val ${controller.selectedIndex.value}");
     return Scaffold(
       // appBar: AppBar(
       //   title: const Center (
       //     child: Text("My Tickets"),)
       // ),
-      body: appScreens[_selectedIndex],
+      body: appScreens[controller.selectedIndex.value],
       bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _selectedIndex,
-        onTap: _onItemTapped,
+        currentIndex: controller.selectedIndex.value,
+        onTap: controller.onItemTapped,
         selectedItemColor: Colors.blueGrey,
         unselectedItemColor: const Color(0xFF526400),
         showSelectedLabels: false,

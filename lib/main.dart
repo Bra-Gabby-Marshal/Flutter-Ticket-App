@@ -1,11 +1,13 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:my_ticket_app/base/bottom_nav_bar.dart';
 import 'package:my_ticket_app/screens/home/all_hotels.dart';
 import 'package:my_ticket_app/screens/home/all_tickets.dart';
 import 'package:my_ticket_app/screens/profile/profile_screen.dart';
 import 'package:my_ticket_app/screens/search/hotel_detail.dart';
 import 'package:my_ticket_app/screens/ticket/ticket_screen.dart';
+import 'package:get/get.dart';
 
 import 'base/widgets/app_routes.dart';
 
@@ -18,10 +20,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return  GetMaterialApp(
       // home: const BottomNavBar(),
       routes: {
-        AppRoutes.homePage:(context)=> const BottomNavBar(),
+        AppRoutes.homePage:(context)=> BottomNavBar(),
         AppRoutes.allTicket: (context)=> const AllTickets(),
         AppRoutes.ticketScreen: (context)=> const TicketScreen(),
         AppRoutes.allHotels: (context)=> const AllHotels(),
