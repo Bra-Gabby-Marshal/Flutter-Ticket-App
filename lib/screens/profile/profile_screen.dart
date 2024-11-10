@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:my_ticket_app/base/res/media.dart';
 import 'package:my_ticket_app/base/res/styles/app_styles.dart';
+import 'package:my_ticket_app/base/widgets/app_column_text_layout.dart';
 import 'package:my_ticket_app/base/widgets/heading_text.dart';
 import 'package:my_ticket_app/base/widgets/text_style_third.dart';
 
@@ -132,6 +133,116 @@ class ProfileScreen extends StatelessWidget {
                   ),
                 ))
           ],
+        ),
+        const SizedBox(height: 25,),
+        Text("Accumulated Mile", style: AppStyles.headLineStyle2,),
+        Container(
+          padding: const EdgeInsets.symmetric(horizontal: 15),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(18),
+            color: AppStyles.bgColor
+          ),
+          child: Column(
+            children: [
+              const SizedBox(height: 15,),
+              Text("192802", style: TextStyle(
+                  fontSize: 30, color: AppStyles.textColor, fontWeight: FontWeight.w600
+              ),),
+              const SizedBox(height: 15,),
+              //   row for text
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                      "Miles Accured",
+                  style: AppStyles.headLineStyle4.copyWith(fontSize: 16),
+                  ),
+                  Text(
+                    "16th July",
+                    style: AppStyles.headLineStyle4.copyWith(fontSize: 16),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 4,),
+              // Divider
+              Divider(color: Colors.grey.shade300,),
+              const SizedBox(height: 4,),
+              
+            //   row->column
+              const Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  AppColumnTextLayout(
+                    topText: "23 042",
+                    bottomText: "Miles",
+                    alignment: CrossAxisAlignment.start,
+                    isColor: false,
+                  ),
+                  AppColumnTextLayout(
+                    topText: "Airline CO",
+                    bottomText: "Received from",
+                    alignment: CrossAxisAlignment.end,
+                    isColor: false,
+                  ),
+                ],
+              ),
+              const SizedBox(height: 4,),
+              // Divider
+              Divider(color: Colors.grey.shade300,),
+              const SizedBox(height: 4,),
+              const Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  AppColumnTextLayout(
+                    topText: "24",
+                    bottomText: "Miles",
+                    alignment: CrossAxisAlignment.start,
+                    isColor: false,
+                  ),
+                  AppColumnTextLayout(
+                    topText: "McDonald\'s",
+                    bottomText: "Received from",
+                    alignment: CrossAxisAlignment.end,
+                    isColor: false,
+                  ),
+                ],
+              ),
+              const SizedBox(height: 4,),
+              // Divider
+              Divider(color: Colors.grey.shade300,),
+              const SizedBox(height: 4,),
+              const Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  AppColumnTextLayout(
+                    topText: "52 240",
+                    bottomText: "Miles",
+                    alignment: CrossAxisAlignment.start,
+                    isColor: false,
+                  ),
+                  AppColumnTextLayout(
+                    topText: "Dbestech",
+                    bottomText: "Received from",
+                    alignment: CrossAxisAlignment.end,
+                    isColor: false,
+                  ),
+                ],
+              ),
+              const SizedBox(height: 30,),
+              InkWell(
+                onTap: (){
+                  print("tapped");
+                },
+                child: Text(
+                  "How to get more miles",
+                  style: AppStyles.textStyle.copyWith(
+                    color: AppStyles.primaryColor,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+              ),
+            ],
+          ),
         )
       ],
     ),
